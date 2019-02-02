@@ -37,3 +37,6 @@ Route::get('/compaign', function () {
 Route::get('/createcompaign', function () {
     return view('createcompaign');
 });
+Route::get('/Create new template', function () {
+    return view('Create new template');
+});
